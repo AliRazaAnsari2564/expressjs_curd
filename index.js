@@ -10,8 +10,8 @@ let nextId = 1;
 
 app.post("/teas", (req, res) => {
   const { name, price } = req.body;
-  const newtea = { id: nextId++, name, price };
-  teaData.push(newtea);
+  const newTea = { id: nextId++, name, price };
+  teaData.push(newTea);
   res.status(201).send(newtea);
 });
 
