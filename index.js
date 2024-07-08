@@ -60,6 +60,9 @@ app.get("/ok", (req, res) => {
 app.get("/tea", (req, res) => {
   res.send("wanna order something? what should you perfer?");
 });
+app.get("/Xlink", (req, res) => {
+  res.send("MAliRazaAnsari");
+});
 app.get("/link", (req, res) => {
   res.send("my linkedin account?.....malirazaansari");
 });
